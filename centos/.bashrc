@@ -20,8 +20,5 @@ conda activate
 # arm-none-eabi-gcc stuff
 export PATH=$PATH:/usr/local/gcc-arm-none-eabi/bin
 
-# Julia lang stuff
-export PATH=$PATH:/home/ccc/julia/julia-1.0.0/bin
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
