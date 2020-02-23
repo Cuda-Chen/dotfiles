@@ -15,3 +15,6 @@ source /Users/cudachen/.bazel/bin/bazel-complete.bash
 # anaconda stuff added by Cuda Chen
 . /usr/local/anaconda3/etc/profile.d/conda.sh
 conda activate
+
+# PHP Composer
+export PATH="$PATH:$HOME/.composer/vendor/bin"
