@@ -51,3 +51,10 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib
 # Golang
 export GOPATH=${HOME}/go
 export PATH=/usr/local/go/bin:${PATH}:${GOPATH}/bin
+
+# codequery
+export PATH="$PATH:$HOME/built_packages/codequery-qt5-0.23.0-Linux-amd64/bin"
+
+# SAC
+export SACHOME=/usr/local/sac
+. ${SACHOME}/bin/sacinit.sh
