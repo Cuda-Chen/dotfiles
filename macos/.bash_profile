@@ -1,3 +1,6 @@
+# Always set to Engligh in Terminal
+export LC_ALL=en_US.UTF-8
+
 # Homebrew
 export PATH=/usr/local/bin:$PATH
 
