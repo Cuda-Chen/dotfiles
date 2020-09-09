@@ -58,3 +58,9 @@ export PATH="$PATH:$HOME/built_packages/codequery-qt5-0.23.0-Linux-amd64/bin"
 # SAC
 export SACHOME=/usr/local/sac
 . ${SACHOME}/bin/sacinit.sh
+
+# ngrok
+export PATH="$PATH:$HOME/ngrok_bin"
+
+# diode
+export PATH=/home/cudachen/opt/diode:$PATH
