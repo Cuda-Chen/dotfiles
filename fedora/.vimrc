@@ -14,6 +14,9 @@ Plugin 'VundleVim/Vundle.vim'
 " Julia Vundle Plugin
 Plugin 'JuliaEditorSupport/julia-vim'
 
+" Crystal Vundle Plugin
+Plugin 'vim-crystal/vim-crystal'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
