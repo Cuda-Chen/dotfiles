@@ -28,6 +28,7 @@ export SDKROOT="/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-# mysql-client
 export PATH="/usr/local/opt/mysql-client/bin:$PATH"
+
+# libmseed
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:$HOME/libmseed
